@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="newjs.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio Website</h1>
+        <p>Your can know more about me and my work.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#courses">Courses</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+         <div class="about-container">
+        <img src="myphoto.jpg" alt="vivek's Photo" class="profile-pic">
+    </div>
+        <p>Hello! My name is <strong>VIVEK</strong>, and I am a passionate web developer who loves creating modern and responsive websites. I am constantly looking for new opportunities to grow my skills and help others achieve their digital goals.</p>
+        <button onclick="showMoreInfo()">More About Me</button>
+        <p id="more-info" style="display:none; margin-top:15px;">I am currently pursuing my B.Tech in Computer Science and Engineering. I actively participate in hackathons and coding competitions and enjoy learning new technologies like AI and cloud computing.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="/submit" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-status" style="margin-top:10px;color:green;"></p>
+    </section>
+
+    <section id="resume">
+        <h2>My Resume</h2>
+        <div class="container">
+            <header>
+                <h1>CH VIVEKANANDA REDDY</h1>
+                <p>Email: vivekanandareddy_chinthalapudi@srmap.edu.in| Phone: 9392637364 | LinkedIn: https://www.linkedin.com/in/ch-vivek-reddy-a7b836291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+            </header>
+
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li>Email: vivekanandareddy_chinthalapudi@srmap.edu.in</li>
+                    <li>Phone: 9392637364</li>
+                    <li>LinkedIn: https://www.linkedin.com/in/ch-vivek-reddy-a7b836291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python, Java</li>
+                    <li>Web Development</li>
+                    <li>Project Management</li>
+                </ul>
+            </section>
+
+            <section class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>B Tech 2nd year in CSE , SRM AP UNIVERSITY</li>
+                    <li>Intermediate Board education , SRI CHAITANYA JUNIOR COLLEGE -96.4%</li>
+                    <li>SSC , SRI CHAITANYA SCHOOL - 99%</li>
+                </ul>
+            </section>
+
+            <section class="Hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Karate</li>
+                    <li>Reading Self Help books</li>
+                    <li>Cycling</li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Courses Completed</h2>
+        <ul>
+            <li>C Language</li>
+            <li>C++ language with OOPS</li>
+            <li>Python</li>
+            <li>HTML AND CSS</li>
+            <li>JavaScript</li>
+            <li>SQL and DBMS</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CH VIVEKANANDAREDDY. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
