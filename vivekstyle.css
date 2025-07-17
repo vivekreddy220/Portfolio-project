@@ -1,0 +1,29 @@
+table{
+    background-color:antiquewhite;
+    width: 100%;
+    border: 1px solid;
+    }
+    th{
+    font-size:large;
+    font-style: oblique;
+    border: 1px solid;
+    text-align: center;
+    }
+    td{
+    border: 1px solid;
+    text-align: left;
+    }
+    h1{
+    text-align: center;
+    color:blue;
+    font-family: bold;
+    font-style:oblique;
+    }
+    #xy{
+    text-align: center;
+    color:rgb(234, 11, 11);
+    }
+    h2{
+    background-color: rgb(239, 215, 219);
+    color:blue;
+    }

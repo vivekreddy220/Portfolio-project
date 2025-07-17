@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('1.jpg');
+        }
+        .navbar {
+            background-color: rgb(23, 215, 209);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            color: rgb(249, 251, 252);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color:  darkslategray;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            width: 85%;
+            padding: 50px;
+            margin: 20px;
+            background: lightseagreen;
+            border-radius: 10px;
+            box-shadow: 0 0 10px darkgrey;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#personal">Personal Details</a>
+        <a href="#education">Education</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+        <section id="personal">
+            <h2>Personal Details</h2>
+            <p>Name:C.Vivekananda Reddy</p>
+            <p>Age: 20</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor's in Computer Science</p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p><a href="http://127.0.0.1:5500/vivekresume.html">View Resume</a></p>
+            <p><a href="http://127.0.0.1:5500/vivekresume.html" download>Download Resume</a></p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+           <a href="https://docs.google.com/document/d/1vHrcOxxZ34GAWYtExL_8AG694upIxnCn/edit?usp=drivesdk&ouid=113975840796168598792&rtpof=true&sd=true">Project-1</a>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>Playing chess</p>
+            <p>Reading books</p>
+            <p>Exploring things</p>
+            
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Proficient in HTML, CSS, and JavaScript</p>
+            <p>Experienced in Python and Java programming</p>
+            <p>Strong analytical and problem-solving skills</p>
+            <p>Excellent communication and teamwork abilities</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email:chvivekreddy4@gmail.com</p>
+            <p>Linkedin:<a href="https://www.linkedin.com/in/ch-vivek-reddy-a7b836291">click here</a></p>
+            <p>Phone:9346514639</p>
+        </section>
+    </div>
+</body>
+</html>
+
