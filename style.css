@@ -9,14 +9,14 @@ html {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f1f4f8;
+    background-color: #3064a7;
     color: #333;
     line-height: 1.6;
     padding: 20px;
 }
 
 header {
-    background-color: #a1d610;
+    background-color: #d68310;
     color: white;
     text-align: center;
     padding: 50px;
@@ -40,7 +40,7 @@ p {
 
 nav ul {
     list-style-type: none;
-    background-color: #e4aa0a;
+    background-color: #8f1a57;
     padding: 15px;
     text-align: center;
     margin-top: 30px;
@@ -80,7 +80,7 @@ section {
 }
 
 .skill-item {
-    background-color: #4caf50;
+    background-color: #28902b;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
